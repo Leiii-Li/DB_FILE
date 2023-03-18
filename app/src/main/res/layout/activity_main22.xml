@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity22">
+
+    <data>
+
+        <variable
+            name="writeFileTime"
+            type="String" />
+
+        <variable
+            name="writeDbTime"
+            type="String" />
+
+        <variable
+            name="readFileTime"
+            type="String" />
+
+        <variable
+            name="readDbTime"
+            type="String" />
+
+        <variable
+            name="onClickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/write_2_db_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClickListener="@{onClickListener}"
+                android:text="将JSON写入数据库" />
+
+            <TextView
+                android:id="@+id/write_2_db_btn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{writeDbTime}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/write_2_file_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClickListener="@{onClickListener}"
+                android:text="将JSON写入文件" />
+
+            <TextView
+                android:id="@+id/write_2_file_btn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{writeFileTime}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/read_2_db_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClickListener="@{onClickListener}"
+                android:text="读取数据库" />
+
+            <TextView
+                android:id="@+id/read_2_db_btn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{readDbTime}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/read_2_file_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClickListener="@{onClickListener}"
+                android:text="读取文件" />
+
+            <TextView
+                android:id="@+id/read_2_file_btn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{readFileTime}" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

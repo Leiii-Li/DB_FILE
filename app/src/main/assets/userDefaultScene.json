@@ -1,0 +1,3205 @@
+{
+  "signature": "d8477fdf7e9a14d2bd82c48a374f77be",
+  "error_code": 1000,
+  "error_msg": "success",
+  "scenes": [
+    {
+      "scene_id": 8,
+      "scene_name": "探索",
+      "display_title": "探索",
+      "scene_intro": "这里有各种功能和服务，等着您来探索",
+      "components": [
+        {
+          "component_id": 1,
+          "component_type": 1,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 3,
+          "gird_coord": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "点击登录",
+                ""
+              ],
+              "resSpeech_title": "点击登录",
+              "rgb": "#C1B6BC",
+              "bg_img": "http://osstest.launcher.tcloudfamily.com/topic/09790bc94d5b488492cf42b5d3cf95e0.png?md5=f9212419e30c03dcb4af0e3b0f21dbb0",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.usercenter",
+                "activity_name": "com.tcl.usercenter.WelcomActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 3,
+          "component_type": 8,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 1,
+          "gird_coord": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "搜索",
+                ""
+              ],
+              "resSpeech_title": "搜索",
+              "rgb": "#EED19B",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d3ab90e2332a42ecb94e3ae985e37b67.svg?md5=1d7d39139469ef72a8b90ff213f4f78d",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.wholenetsearch",
+                "activity_name": "com.tcl.wholenetsearch.MainActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 33,
+          "component_type": 7,
+          "card_category": 1,
+          "card_type": "2*1",
+          "card_style": 17,
+          "gird_coord": [
+            0,
+            2,
+            2,
+            1
+          ],
+          "version": 1,
+          "resources": [
+            {
+              "title": [
+                "历史收藏",
+                "记录您的热爱"
+              ],
+              "resSpeech_title": "历史收藏",
+              "rgb": "#000000",
+              "button_name": "查看全部",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.cyberui.recents.MainActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 31,
+          "component_type": 2,
+          "card_category": 1,
+          "card_type": "2*1",
+          "card_style": 12,
+          "gird_coord": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "我的应用",
+                "管理您的应用"
+              ],
+              "resSpeech_title": "我的应用",
+              "bg_img": "http://osstest.launcher.tcloudfamily.com/topic/e2ad52996dcc4811ab5509b079f94952.png?md5=284cbe939477e64b68371e894e4dd030",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.apps.AppsActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 4,
+          "component_type": 5,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 1,
+          "gird_coord": [
+            0,
+            4,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "玩机技巧",
+                ""
+              ],
+              "resSpeech_title": "玩机技巧",
+              "rgb": "#C1B6BC",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/e5656730d1c742a098743a99e80aecaa.svg?md5=d15442d186ba26f09143e1624dd4afde",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.playskill",
+                "activity_name": "com.tcl.playskill.portal.page.main.MainActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 13,
+          "component_type": 10,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 4,
+          "gird_coord": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "version": 1,
+          "resources": [
+            {
+              "title": [
+                "信号源",
+                ""
+              ],
+              "resSpeech_title": "信源",
+              "rgb": "#C1B6BC",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/58c73890664a48218c38f4b2d82958e3.svg?md5=7a5a29930de1760e7b3a90f8519b3741",
+              "action_url": {
+                "behavior": "service",
+                "action": "com.tcl.insrc.SHOW_WINDOW",
+                "package_name": "com.tcl.sourcemananger"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 7,
+          "component_type": 4,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 1,
+          "gird_coord": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "设置",
+                ""
+              ],
+              "resSpeech_title": "设置",
+              "rgb": "#C1B6BC",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/93d3de6a38f54c269f996daf1f6cd3f4.svg?md5=92fd8dcf15e32bc6ee62d9a57f28301b",
+              "action_url": {
+                "behavior": "service",
+                "action": "com.tcl.settings.SHOW_WINDOW",
+                "package_name": "com.tcl.settings",
+                "extra_map": [
+                  {
+                    "key": "Type",
+                    "type": "string",
+                    "value": "Settings"
+                  }
+                ]
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 14,
+          "component_type": 9,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 1,
+          "gird_coord": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "多屏互动",
+                ""
+              ],
+              "resSpeech_title": "多屏互动",
+              "rgb": "#DC89B5",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/0bfdea730c5a432299711e640fd12243.svg?md5=7859728c7d9fd625a453745b87a98907",
+              "action_url": {
+                "behavior": "activity",
+                "action": "com.tcl.multiscreen.MainActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 39,
+          "component_type": 10001,
+          "card_category": 2,
+          "card_type": "2*2",
+          "card_style": 26,
+          "gird_coord": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "version": 33,
+          "resources": [
+            {
+              "title": [
+                "每日推荐",
+                "精彩内容每日更新"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/99ef8358fef54473a244e7087f7a5e36.png?md5=a60437fb43edd000a6b050032609180e",
+              "button_name": "查看全部",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.subject.recommend.DailyRecommendActivity",
+                "extra_map": [
+                  {
+                    "key": "daily_recommend_id",
+                    "type": "String",
+                    "value": "11561"
+                  }
+                ]
+              },
+              "subResources": [
+                {
+                  "vid": "mzc00200x1t7a8o",
+                  "title": [
+                    "侏罗纪世界3",
+                    ""
+                  ],
+                  "resSpeech_title": "侏罗纪世界3",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/posters/b3b005a03e984f7eb451529f3c65a476.png?md5=461fba37da21f127e4a44341040a79dc",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200x1t7a8o"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200x1t7a8o"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电影"
+                },
+                {
+                  "vid": "mzc00200pzl5rvb",
+                  "title": [
+                    "县委大院",
+                    ""
+                  ],
+                  "resSpeech_title": "县委大院",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/eddf03f6b1344a4aa256227e6d5549d8?md5=1bec671b2c04fa3c72315958fc6d6647",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200pzl5rvb"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200pzl5rvb"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧"
+                },
+                {
+                  "vid": "mzc00200hytszvy",
+                  "title": [
+                    "勇者无惧",
+                    "特警吴惧为给在因禁毒牺牲的战友报仇，加入卧底行动…"
+                  ],
+                  "resSpeech_title": "勇者无惧",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/0faa9b20e9a94a629869be89901f9772.png?md5=c7cae540d110399137425d3338778aaa",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200hytszvy"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200hytszvy"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧"
+                },
+                {
+                  "vid": "mzc00200xahwmw1",
+                  "title": [
+                    "加油！妈妈",
+                    "周南南拎娃入住卢川家 三人“同居”尴尬又温馨"
+                  ],
+                  "resSpeech_title": "加油！妈妈",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/cd3ea65478fc408a9c585ca4eb82b573.jpg?md5=c7a7a1f873fb5d45349e30b89410dd9d",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200xahwmw1"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200xahwmw1"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧"
+                },
+                {
+                  "vid": "mzc00200iceo8ki",
+                  "title": [
+                    "欢乐颂3",
+                    "朱喆视察工作压迫感极强"
+                  ],
+                  "resSpeech_title": "欢乐颂3",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/posters/400a99a854ed4472b47549f46522c340.png?md5=93dd2ce1fffa128678361a7b32ad1bd9",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200iceo8ki"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200iceo8ki"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧"
+                },
+                {
+                  "vid": "mzc00200m8u46sg",
+                  "title": [
+                    "玫瑰之战",
+                    "全职太太逆袭成律所顶梁柱"
+                  ],
+                  "resSpeech_title": "玫瑰之战",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/a19e67ca4f7c4b2a9863be634d216cee.png?md5=8c477211cc2c964925291ca29461f53c",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200m8u46sg"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200m8u46sg"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧"
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 28,
+          "component_type": 10001,
+          "card_category": 1,
+          "card_type": "2*1",
+          "card_style": 12,
+          "gird_coord": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "version": 5,
+          "res_type": "音乐",
+          "resources": [
+            {
+              "title": [
+                "专题集合",
+                "订阅您喜欢的专题"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/8ae85e3aba4c462e951ce3b5994b5dee.png?md5=63426827c6cbb1a50b24eee98fd886ab",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.subject.collection.SubjectCollectionActivity",
+                "extra_map": [
+                  {
+                    "key": "SUBJECT_COLLECTION_TOPIC_KEY",
+                    "type": "String",
+                    "value": "10941"
+                  }
+                ]
+              },
+              "res_type": "音乐",
+              "subResources": [
+                {
+                  "vid": "11449",
+                  "title": [
+                    "热播悬疑剧盘点",
+                    "烧脑推理 脑洞大开"
+                  ],
+                  "resSpeech_title": "热播悬疑剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/6dda9f40ca4e452f8c07beb3d8a27b9a.png?md5=d7b526068fb6f3c943d84afa1e707387",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11449"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11449"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11450",
+                  "title": [
+                    "开心麻花电影",
+                    "爆笑喜剧 轻松一夏"
+                  ],
+                  "resSpeech_title": "开心麻花电影",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/420c29f5fd0e42cdb54030112e778553.png?md5=bdde5121646ed49df7c2a3420c908e1b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11450"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11450"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11492",
+                  "title": [
+                    "综艺之神合集",
+                    "沈腾贾玲李诞爆笑综艺"
+                  ],
+                  "resSpeech_title": "综艺之神合集",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d2ffe5d100d947ebbe859b9dda332904.png?md5=126dd545498c86bb1bc648e73c92d24f",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11492"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11492"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11170",
+                  "title": [
+                    "经典粤语剧场",
+                    "经典永不过时"
+                  ],
+                  "resSpeech_title": "经典粤语剧场",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/c91c7e690c524ec9ae2a90bfaf530be6.png?md5=459adf779019544f8eb97df83d088d2c",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11170"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11170"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11542",
+                  "title": [
+                    "鹅厂独播动漫大全",
+                    "精彩自制动漫看不停！"
+                  ],
+                  "resSpeech_title": "鹅厂独播动漫大全",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/88cd66786f7e4126b0f0e115a9bf1e42.jpg?md5=b04b47c959ab844e77601889b64e5fb2",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11542"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11542"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11157",
+                  "title": [
+                    "30届电视剧金鹰奖",
+                    "哪一个是你心中最佳？"
+                  ],
+                  "resSpeech_title": "30届电视剧金鹰奖",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/6335da3809a1462a919305ca04f2f87e.png?md5=b353903ec116adff25dae9b21391f8a4",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11157"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11157"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11439",
+                  "title": [
+                    "2022热播剧",
+                    "热门大剧看不停"
+                  ],
+                  "resSpeech_title": "2022热播剧",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/362a9df0615e4c73b6a397faaa63ffbe.png?md5=e5833a0a840c05411a5d356447b37307",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11439"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11439"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11444",
+                  "title": [
+                    "热播玄幻剧盘点",
+                    "陪你走遍四海八荒"
+                  ],
+                  "resSpeech_title": "热播玄幻剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/8776011e37614b7a8183cf72cd806444.png?md5=455924b27e573e7f53de8240fa4f0330",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11444"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11444"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11156",
+                  "title": [
+                    "奥斯卡获奖佳片",
+                    "每一部都震撼你的灵魂"
+                  ],
+                  "resSpeech_title": "奥斯卡获奖佳片",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/5cf733fcedb642068f9b976900823162.png?md5=c2b7327edf169ace9c5898de6e9d2013",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11156"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11156"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11451",
+                  "title": [
+                    "太空科幻电影",
+                    "我们的征途是星辰大海"
+                  ],
+                  "resSpeech_title": "太空科幻电影",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d22ab3b9e2bc401d8ae75fcb27f2825c.png?md5=c29d630a8f31bbde8517580437fcd98b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11451"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11451"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11452",
+                  "title": [
+                    "热血战争巨制",
+                    "致敬最可爱的人"
+                  ],
+                  "resSpeech_title": "热血战争巨制",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/0f8351345fdc47b0aecbcdc6f9ec01a3.png?md5=24f0f2e4bf0e6274a802fc717467ac62",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11452"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11452"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11448",
+                  "title": [
+                    "热播宫廷剧盘点",
+                    "斗智斗勇 胜者为王"
+                  ],
+                  "resSpeech_title": "热播宫廷剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/95a1a10df9ae45509602ee34867fb28b.png?md5=bc70e09111f2693d120c048687ebd21e",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11448"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11448"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11447",
+                  "title": [
+                    "热播职场剧盘点",
+                    "逆袭蜕变 华丽转身"
+                  ],
+                  "resSpeech_title": "热播职场剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/f59bcc115e934b2f998777939271b6c6.png?md5=81fe284c937b9de6a23b4ad34608b95f",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11447"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11447"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11446",
+                  "title": [
+                    "热播甜宠剧盘点",
+                    "花式追爱 各有妙招"
+                  ],
+                  "resSpeech_title": "热播甜宠剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/acab02c3600f4d0eb5dd3cbfe003b5aa.png?md5=f9a25f6557e3df7cd98176feddf7e7d6",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11446"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11446"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11445",
+                  "title": [
+                    "热播武侠剧盘点",
+                    "行侠仗义 快意恩仇"
+                  ],
+                  "resSpeech_title": "热播武侠剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/1c8ac84fd9004db296c3a22d8e206a15.png?md5=139290eb5596ca1f474508086763090f",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11445"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11445"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11152",
+                  "title": [
+                    "仙侠奇缘",
+                    "逍遥子亦可为大英雄"
+                  ],
+                  "resSpeech_title": "仙侠奇缘",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/27cf006038e840c4b4f262895b53a523.png?md5=6b112ebc55afddbc6b72c5d40c0bab34",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11152"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11152"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11158",
+                  "title": [
+                    "戛纳获奖影片",
+                    "当世佳作，一网打尽"
+                  ],
+                  "resSpeech_title": "戛纳获奖影片",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/e7faaca36d7546eca39b39d4887c32d2.png?md5=e881b32f274d9bb39c173a3591a2b5c4",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11158"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11158"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11153",
+                  "title": [
+                    "时空穿越之旅",
+                    "金时空分身，你好"
+                  ],
+                  "resSpeech_title": "时空穿越之旅",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/c06f367dbc884db5ac894351a740ee09.png?md5=a85332c75fc9b164a5ea8cef3dc8f1b6",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11153"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11153"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11461",
+                  "title": [
+                    "喜剧大剧场",
+                    "噗哈哈哈哈哈"
+                  ],
+                  "resSpeech_title": "喜剧大剧场",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/3a3b713bc67e497fa36231534678ee2d.png?md5=1be901d2f7220bd3b46430dbbab4e938",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11461"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11461"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11460",
+                  "title": [
+                    "恋爱甜心屋",
+                    "快看他们甜甜的恋爱！"
+                  ],
+                  "resSpeech_title": "恋爱甜心屋",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/dd1f1ad0a10847668e8e05cc7867ad0e.png?md5=f9a9fe4320bc546b375088bfe5f0ebfb",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11460"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11460"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11459",
+                  "title": [
+                    "旅游公车站",
+                    "户外旅游，嗨玩假期！"
+                  ],
+                  "resSpeech_title": "旅游公车站",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d72541d20a9847f68f3d5ed8f7add910.png?md5=f7945a158a59858454517209a453073c",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11459"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11459"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11159",
+                  "title": [
+                    "周星驰合辑",
+                    "喜剧之王 天才演员"
+                  ],
+                  "resSpeech_title": "周星驰合辑",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/9c7713ee001e427f875994831d95995c.png?md5=51893600ad0abf4dd21ba683e618d284",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11159"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11159"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11160",
+                  "title": [
+                    "张国荣合辑",
+                    "风华绝代 举世无双"
+                  ],
+                  "resSpeech_title": "张国荣合辑",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d15c7a8eebcc4079a15d30a3c9181470.png?md5=c650ed936f32de019d8b87caa95c428d",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11160"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11160"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11161",
+                  "title": [
+                    "吴京合辑",
+                    "硬汉代表 英雄本色"
+                  ],
+                  "resSpeech_title": "吴京合辑",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/e238f081f12e46db949d84d4b46bd152.png?md5=158631fea0e4e0e5770ab5613664ec68",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11161"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11161"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11155",
+                  "title": [
+                    "军旅抗战合辑",
+                    "为国捐躯 峥嵘岁月"
+                  ],
+                  "resSpeech_title": "军旅抗战合辑",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/7da82b7ee06e43488e2817b5f75044f0.png?md5=01840f564bca78d0950cccb00d018c5e",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11155"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11155"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11144",
+                  "title": [
+                    "红色经典",
+                    "犯我中华者，虽远必诛"
+                  ],
+                  "resSpeech_title": "红色经典",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/9ba0bc2644b541e7b44f243e2d3fb3b4.png?md5=f0f2d8f6a9837196dffe80f2d5f1034b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11144"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11144"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11143",
+                  "title": [
+                    "夕阳红剧场",
+                    "但使龙城飞将在"
+                  ],
+                  "resSpeech_title": "夕阳红剧场",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/9128ee9d312a4d2796bce9c6e341c78b.png?md5=7aefbe088359e865a627fe0ce43c8528",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11143"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11143"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11458",
+                  "title": [
+                    "玄幻穿越动漫",
+                    "穿越的正确姿势"
+                  ],
+                  "resSpeech_title": "玄幻穿越动漫",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d6f93ec99567400099448cfe22531943.png?md5=6aefbc131149d9524fc4a8f5aba4762a",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11458"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11458"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11457",
+                  "title": [
+                    "名侦探柯南合集",
+                    "最惊悚奇案汇总"
+                  ],
+                  "resSpeech_title": "名侦探柯南合集",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/355805d8669f4074a66609da30ff01bb.png?md5=d32162fb9cdcdcc11f8f8fb15b62d740",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11457"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11457"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11154",
+                  "title": [
+                    "动漫时光",
+                    "燃爆整个夏天"
+                  ],
+                  "resSpeech_title": "动漫时光",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/e47f8147de8b4107a5bbdb830134dde2.png?md5=18580d28d5b53745efbbcfae14574acc",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11154"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11154"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11462",
+                  "title": [
+                    "游戏PK擂台",
+                    "超级综艺IP逗趣开耍！"
+                  ],
+                  "resSpeech_title": "游戏PK擂台",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/7c9dbe66ef354134a05e4a6ba4efd732.png?md5=a12ce11e36cafff0e26bd3e399f93d27",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11462"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11462"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11454",
+                  "title": [
+                    "游戏动漫是一家",
+                    "次元重叠！"
+                  ],
+                  "resSpeech_title": "游戏动漫是一家",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d11bd25c67c44b79a15780b20794a6a1.png?md5=75069d0abe254a3817aa4ba04b44c0b2",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11454"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11454"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11453",
+                  "title": [
+                    "恐龙电影盘点",
+                    "欢迎来到侏罗纪世界！"
+                  ],
+                  "resSpeech_title": "恐龙电影盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/b9851239b1a14c019e6675b176ae461b.png?md5=e2b78ffe263517f70728df255df9a5f3",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11453"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11453"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11455",
+                  "title": [
+                    "高质量宝藏动漫",
+                    "高质量宝藏动漫盘点"
+                  ],
+                  "resSpeech_title": "高质量宝藏动漫",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d7976be609ca4d96940da8cfafc65f0b.png?md5=fb9cb0662037ac86fbec8074a8573a84",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11455"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11455"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11456",
+                  "title": [
+                    "最全奥特曼合集",
+                    "你相信光吗？"
+                  ],
+                  "resSpeech_title": "最全奥特曼合集",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/3afe2fb7304d4cb29d1f42823e4bdb51.png?md5=2f8885f5681cb72342cf1af5fa771575",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11456"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11456"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11145",
+                  "title": [
+                    "看英语，学英语",
+                    "学英语，只需看这部"
+                  ],
+                  "resSpeech_title": "看英语，学英语",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/5535aac8d793479c92ac303d88fdfccc.png?md5=2bdd7b01136d6b9f6dde368d2edec9c4",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11145"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11145"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11146",
+                  "title": [
+                    "宝宝巴士",
+                    "和熊猫一起学汉字~"
+                  ],
+                  "resSpeech_title": "宝宝巴士",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/f75da262f6694b87bca4e9a4f2b9bad8.png?md5=e553990a9372334b6946eaf55da8f930",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11146"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11146"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11147",
+                  "title": [
+                    "科学小世界",
+                    "一起来探索自然奥秘！"
+                  ],
+                  "resSpeech_title": "科学小世界",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/49269862884147d7af169eda05286627.png?md5=0d24858657e9ae38a511929022665eb1",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11147"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11147"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11148",
+                  "title": [
+                    "绘本听书",
+                    "想知道它们的故事吗？"
+                  ],
+                  "resSpeech_title": "绘本听书",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/ba1c71a0ac68414bb83f7e942c4209f7.png?md5=2408096d80e04e7df808eb07a95adda8",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11148"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11148"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11149",
+                  "title": [
+                    "我的恐龙世界",
+                    "敢和我一起冒险吗？"
+                  ],
+                  "resSpeech_title": "我的恐龙世界",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/d128e29b4eb74dcca06152a3f0188108.png?md5=45da33e960f5c9a5a240f22b9912b919",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11149"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11149"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11150",
+                  "title": [
+                    "一起唱儿歌",
+                    "两只老虎跑得快~"
+                  ],
+                  "resSpeech_title": "一起唱儿歌",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/f54faac2a4de49a9942d75347357fbac.png?md5=d61c54166fc4810f7a64dd0d07b6620b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11150"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11150"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11151",
+                  "title": [
+                    "迪士尼经典",
+                    "童年回忆 无忧岁月"
+                  ],
+                  "resSpeech_title": "迪士尼经典",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/c294f0b5cef046fe9c935e4026bc2fa7.png?md5=41e8a996c5657fd1a269cf58c175e037",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11151"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11151"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 34,
+          "component_type": 11,
+          "card_category": 1,
+          "card_type": "2*1",
+          "card_style": 18,
+          "gird_coord": [
+            2,
+            3,
+            2,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "天气",
+                "及时了解你附近的天气情况"
+              ],
+              "resSpeech_title": "天气",
+              "rgb": "#5FBED4",
+              "bg_img": "http://osstest.launcher.tcloudfamily.com/topic/7d596fe2f955402ba60a24a6691653b6.png?md5=b1b56a08e2eb8cab8d726d2fecd33693",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.common.weather",
+                "activity_name": "com.tcl.common.weather.activity.WeatherActivity"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 6,
+          "component_type": 13,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 1,
+          "gird_coord": [
+            2,
+            4,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "媒体中心",
+                ""
+              ],
+              "resSpeech_title": "媒体中心",
+              "rgb": "#5FBED4",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/56473c27c9844179a0a4b2f2660c8139.svg?md5=b72354b86397c4d0c64c682310f376c4",
+              "action_url": {
+                "behavior": "activity",
+                "action": "android.intent.action.mediacenter",
+                "package_name": "com.tcl.ui_mediaCenter"
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 12,
+          "component_type": 12,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 1,
+          "gird_coord": [
+            3,
+            4,
+            1,
+            1
+          ],
+          "version": 0,
+          "resources": [
+            {
+              "title": [
+                "桌面切换",
+                ""
+              ],
+              "resSpeech_title": "桌面切换",
+              "rgb": "#5FBED4",
+              "fg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/c871a34110464752aaa66a7f61525101.svg?md5=12050ce0fbde81bf1b870cbe10f0525b",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mllauncher.mlchange.MlChangeSysActivity",
+                "extra_map": [
+                  {
+                    "key": "new_sys_img",
+                    "value": "新系统切图"
+                  },
+                  {
+                    "key": "old_sys_img",
+                    "value": "旧系统切图"
+                  }
+                ]
+              }
+            }
+          ],
+          "cycle_time_interval": 10000
+        }
+      ]
+    },
+    {
+      "scene_id": 9,
+      "scene_name": "观影",
+      "display_title": "观影",
+      "scene_intro": "聚焦您的观影场景，您想看的内容一触即达",
+      "components": [
+        {
+          "component_id": 36,
+          "component_type": 10000,
+          "card_category": 2,
+          "card_type": "2*2",
+          "card_style": 22,
+          "gird_coord": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "version": 5,
+          "res_type": "电视剧",
+          "video_type": "01002",
+          "resources": [
+            {
+              "title": [
+                "电视剧",
+                "优质口碑电视剧"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/35203f221a924cb3ab38d7d18e220f30.png?md5=7594660314ae829061e239e4ed668e15",
+              "button_name": "进入频道",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "电视剧"
+                  }
+                ]
+              },
+              "res_type": "电视剧",
+              "video_type": "01002",
+              "subResources": [
+                {
+                  "vid": "mzc002007knmh3g",
+                  "res_name": "三体",
+                  "title": [
+                    "三体",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/e7a1e03a34134b3eaf7885789caa1398.png?md5=d7fd7edecf63f5c0a45f216ed755ce5b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc002007knmh3g"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc002007knmh3g"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧",
+                  "video_type": "01002"
+                },
+                {
+                  "vid": "mzc002002lgc6dn",
+                  "res_name": "向风而行",
+                  "title": [
+                    "向风而行",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/767ac7a66b514c0189f3e0d14c846666.png?md5=e25dd4e9f6a075462409197954785f81",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc002002lgc6dn"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc002002lgc6dn"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电视剧",
+                  "video_type": "01002"
+                },
+                {
+                  "vid": "mzc00200hr155x9",
+                  "res_name": "纵有疾风起",
+                  "title": [
+                    "纵有疾风起",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/6cf4c622640844a19fb3f05c0305f622.png?md5=380226ed0eaba76e59b9eaaa0f5bc842",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200hr155x9"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200hr155x9"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 1,
+                  "res_type": "电视剧",
+                  "video_type": "01002"
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 42,
+          "component_type": 10000,
+          "card_category": 2,
+          "card_type": "2*2",
+          "card_style": 22,
+          "gird_coord": [
+            0,
+            2,
+            2,
+            2
+          ],
+          "version": 6,
+          "res_type": "综艺",
+          "video_type": "01004",
+          "resources": [
+            {
+              "title": [
+                "综艺",
+                "合家欢爆笑综艺"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/75fb5fbbfa5f444580c08a7e17224cc5.png?md5=7594660314ae829061e239e4ed668e15",
+              "button_name": "进入频道",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "综艺"
+                  },
+                  {
+                    "key": "tabName1",
+                    "value": "综艺推荐"
+                  }
+                ]
+              },
+              "res_type": "综艺",
+              "video_type": "01004",
+              "subResources": [
+                {
+                  "vid": "mzc002007xmrkcl",
+                  "res_name": "我们的客栈2023-01-16",
+                  "title": [
+                    "我们的客栈2023-01-16",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/a18aeda3d9d7424e82c1ee013eec2ad7.png?md5=c27594fa1ca362f4c7a73d7059219a6f",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc002007xmrkcl"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc002007xmrkcl"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "综艺",
+                  "video_type": "01004"
+                },
+                {
+                  "vid": "mzc00200c660hkh",
+                  "res_name": "极限挑战宝藏行 第3季2023-01-14",
+                  "title": [
+                    "极限挑战宝藏行 第3季2023-01-14",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/22d446ded6c44a089704eeda18ce71c1.png?md5=b8750cd8e6ef9db80a9815821f9af3e3",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200c660hkh"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200c660hkh"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "综艺",
+                  "video_type": "01004"
+                },
+                {
+                  "vid": "mzc00200my8s5sr",
+                  "res_name": "奔跑吧·共同富裕篇2022-12-30",
+                  "title": [
+                    "奔跑吧·共同富裕篇2022-12-30",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/24cb98e1dae84d939fd947a6fbc2f010.png?md5=9af3a8ad1f2670b5b2d63a51270fba1d",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200my8s5sr"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200my8s5sr"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 1,
+                  "res_type": "综艺",
+                  "video_type": "01004"
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 25,
+          "component_type": 10000,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 2,
+          "gird_coord": [
+            0,
+            4,
+            1,
+            1
+          ],
+          "version": 3,
+          "res_type": "动漫",
+          "video_type": "01003",
+          "resources": [
+            {
+              "title": [
+                "动漫",
+                "人气动漫看过瘾"
+              ],
+              "bg_img": "http://osstest.launcher.tcloudfamily.com/topic/1cf1b7981e2245d789354434e517723c.png?md5=00da7ccec2f4dbba43198ec2f2f37ae0",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "动漫"
+                  }
+                ]
+              },
+              "res_type": "动漫",
+              "video_type": "01003"
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 62,
+          "component_type": 10000,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 2,
+          "gird_coord": [
+            0,
+            5,
+            1,
+            1
+          ],
+          "version": 10,
+          "res_type": "VIP",
+          "resources": [
+            {
+              "title": [
+                "企鹅影院",
+                "会员专属一网打尽"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/38ded133485a49e7b65e09016546b191.png?md5=af642a10a5f108471b63fd5d61dd4aec",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "VIP"
+                  },
+                  {
+                    "key": "tabName1",
+                    "value": "VIP剧场"
+                  },
+                  {
+                    "key": "tabName2",
+                    "value": "VIP精选"
+                  }
+                ]
+              },
+              "res_type": "VIP"
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 57,
+          "component_type": 10000,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 2,
+          "gird_coord": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "version": 2,
+          "res_type": "体育",
+          "video_type": "01009",
+          "resources": [
+            {
+              "title": [
+                "体育",
+                "热血这一刻"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/86d6ab327e2b4732a411a78713ace628.png?md5=566211c16c9e45b92e708c6f195561fd",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "体育"
+                  },
+                  {
+                    "key": "tabName1",
+                    "value": "子体育"
+                  },
+                  {
+                    "key": "tabName2",
+                    "value": "体育（分众）"
+                  }
+                ]
+              },
+              "res_type": "体育",
+              "video_type": "01009"
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 74,
+          "component_type": 10000,
+          "card_category": 0,
+          "card_type": "1*1",
+          "card_style": 2,
+          "gird_coord": [
+            1,
+            5,
+            1,
+            1
+          ],
+          "version": 5,
+          "video_type": "01001",
+          "resources": [
+            {
+              "title": [
+                "免费电视剧",
+                "免费电视剧随心看"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/65a61deaf0e34c739eec3d166b9f3867.png?md5=ddca0a83c1d460795fa24ccad5bc7c7a",
+              "action_url": {
+                "behavior": "activity",
+                "action": "com.tcl.vod.action.videosort",
+                "extra_map": [
+                  {
+                    "key": "channe_id",
+                    "type": "string",
+                    "value": "tv"
+                  },
+                  {
+                    "key": "pay_pattern",
+                    "type": "string",
+                    "value": "ipay=1"
+                  },
+                  {
+                    "key": "channe_name",
+                    "type": "string",
+                    "value": "电视剧"
+                  }
+                ]
+              },
+              "video_type": "01001"
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 40,
+          "component_type": 10000,
+          "card_category": 2,
+          "card_type": "2*2",
+          "card_style": 22,
+          "gird_coord": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "version": 6,
+          "res_type": "电影",
+          "video_type": "01001",
+          "resources": [
+            {
+              "title": [
+                "电影",
+                "精彩大片抢先看"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/aa4421b695b6409f8c646aae2f6c75c8.png?md5=7594660314ae829061e239e4ed668e15",
+              "button_name": "进入频道",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "电影"
+                  },
+                  {
+                    "key": "tabName1",
+                    "value": "精选电影"
+                  },
+                  {
+                    "key": "tabName2",
+                    "value": "电影院"
+                  },
+                  {
+                    "key": "tabName3",
+                    "value": "电影精选"
+                  }
+                ]
+              },
+              "res_type": "电影",
+              "video_type": "01001",
+              "subResources": [
+                {
+                  "vid": "ldl1811bamppdrd",
+                  "res_name": "阿凡达",
+                  "title": [
+                    "阿凡达",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/ff2deaf541ac4cb8956f08318724708b.png?md5=4d218e8a52b67c8e5c83592bd2258412",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "ldl1811bamppdrd"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "ldl1811bamppdrd"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电影",
+                  "video_type": "01001"
+                },
+                {
+                  "vid": "mzc002007sze6ul",
+                  "res_name": "狙击手：逆战",
+                  "title": [
+                    "狙击手：逆战",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/66e462585c4141c887e9693aba327732.png?md5=ffb9162569efb63035267a81f9aa4d5b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc002007sze6ul"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc002007sze6ul"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "电影",
+                  "video_type": "01001"
+                },
+                {
+                  "vid": "mzc00200qv892j3",
+                  "res_name": "万里归途",
+                  "title": [
+                    "万里归途",
+                    ""
+                  ],
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/9534eade557840b28a95f03fcf6ff8aa.png?md5=df2d101bd1cbd17472c4236684acfe62",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200qv892j3"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200qv892j3"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 1,
+                  "res_type": "电影",
+                  "video_type": "01001"
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 43,
+          "component_type": 10000,
+          "card_category": 2,
+          "card_type": "2*2",
+          "card_style": 22,
+          "gird_coord": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "version": 4,
+          "res_type": "纪录片",
+          "video_type": "01005",
+          "resources": [
+            {
+              "title": [
+                "纪录片",
+                "仰观宇宙俯察品类"
+              ],
+              "bg_img": "http://oss.launcher.tcloudfamily.com/beidou/9a6c2c7c954f4391bb45e09d7b618684.png?md5=7594660314ae829061e239e4ed668e15",
+              "button_name": "进入频道",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.mlchannel.MlChannelActivity",
+                "extra_map": [
+                  {
+                    "key": "tabName",
+                    "value": "纪录片"
+                  },
+                  {
+                    "key": "tabName1",
+                    "value": "纪录片（分众）"
+                  },
+                  {
+                    "key": "tabName2",
+                    "value": "子纪录片"
+                  }
+                ]
+              },
+              "res_type": "纪录片",
+              "video_type": "01005",
+              "subResources": [
+                {
+                  "vid": "mzc00200xudwjv2",
+                  "res_name": "风云战国之枭雄",
+                  "title": [
+                    "风云战国之枭雄",
+                    ""
+                  ],
+                  "bg_img": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200xudwjv21662524653868/770",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200xudwjv2"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200xudwjv2"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "纪录片",
+                  "video_type": "01005"
+                },
+                {
+                  "vid": "mzc00200dcn4vcc",
+                  "res_name": "宵夜江湖 第2季",
+                  "title": [
+                    "宵夜江湖 第2季",
+                    ""
+                  ],
+                  "bg_img": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200dcn4vcc1662522234784/770",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200dcn4vcc"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200dcn4vcc"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0,
+                  "res_type": "纪录片",
+                  "video_type": "01005"
+                },
+                {
+                  "vid": "mzc00200aw60isc",
+                  "res_name": "早餐中国 第4季",
+                  "title": [
+                    "早餐中国 第4季",
+                    ""
+                  ],
+                  "bg_img": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200aw60isc1667179188168/770",
+                  "action_url": {
+                    "behavior": "activity",
+                    "action": "com.tcl.vod.action.cyberui.detail",
+                    "extra_map": [
+                      {
+                        "key": "licenceId",
+                        "type": "int",
+                        "value": "15"
+                      },
+                      {
+                        "key": "play_type",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "lch_videoid",
+                        "type": "string",
+                        "value": "mzc00200aw60isc"
+                      },
+                      {
+                        "key": "lch_coverid",
+                        "type": "string"
+                      },
+                      {
+                        "key": "action",
+                        "type": "string",
+                        "value": "1"
+                      },
+                      {
+                        "key": "videoId",
+                        "type": "string",
+                        "value": "mzc00200aw60isc"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 1,
+                  "res_type": "纪录片",
+                  "video_type": "01005"
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        },
+        {
+          "component_id": 16,
+          "component_type": 10001,
+          "card_category": 2,
+          "card_type": "2*2",
+          "card_style": 21,
+          "gird_coord": [
+            2,
+            4,
+            2,
+            2
+          ],
+          "version": 26,
+          "res_type": "电视剧",
+          "resources": [
+            {
+              "title": [
+                "专题集合",
+                "订阅您喜欢的专题"
+              ],
+              "bg_img": "http://osstest.launcher.tcloudfamily.com/topic/2e2d9ebcc99f403d998113e4504a2c13.png?md5=1519df676711b33e0f0ae5ea1ffb224d",
+              "button_name": "查看全部",
+              "action_url": {
+                "behavior": "activity",
+                "package_name": "com.tcl.cyberui",
+                "activity_name": "com.tcl.mlauncher.subject.collection.SubjectCollectionActivity",
+                "extra_map": [
+                  {
+                    "key": "SUBJECT_COLLECTION_TOPIC_KEY",
+                    "type": "String",
+                    "value": "10941"
+                  }
+                ]
+              },
+              "res_type": "电视剧",
+              "subResources": [
+                {
+                  "vid": "11449",
+                  "title": [
+                    "热播悬疑剧盘点",
+                    "烧脑推理 脑洞大开"
+                  ],
+                  "resSpeech_title": "热播悬疑剧盘点",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/6dda9f40ca4e452f8c07beb3d8a27b9a.png?md5=d7b526068fb6f3c943d84afa1e707387",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11449"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11449"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                },
+                {
+                  "vid": "11450",
+                  "title": [
+                    "开心麻花电影",
+                    "爆笑喜剧 轻松一夏"
+                  ],
+                  "resSpeech_title": "开心麻花电影",
+                  "bg_img": "http://oss.launcher.tcloudfamily.com/topic/upload/420c29f5fd0e42cdb54030112e778553.png?md5=bdde5121646ed49df7c2a3420c908e1b",
+                  "action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11450"
+                      }
+                    ]
+                  },
+                  "default_action_url": {
+                    "behavior": "activity",
+                    "package_name": "com.tcl.cyberui",
+                    "activity_name": "com.tcl.mlauncher.subject.detail.SubjectDetailActivity",
+                    "extra_map": [
+                      {
+                        "key": "SUBJECT_DETAIL_TOPIC_ID_KEY",
+                        "type": "String",
+                        "value": "11450"
+                      }
+                    ]
+                  },
+                  "use_localhistory": 0
+                }
+              ]
+            }
+          ],
+          "cycle_time_interval": 10000
+        }
+      ]
+    }
+  ]
+}
